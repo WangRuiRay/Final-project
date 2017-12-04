@@ -15,6 +15,10 @@
 		1A09CE491FD5C5ED00654339 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A09CE481FD5C5ED00654339 /* main.m */; };
 		1A09CE531FD5C5EE00654339 /* Final_projectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A09CE521FD5C5EE00654339 /* Final_projectTests.m */; };
 		1A09CE5E1FD5C5EE00654339 /* Final_projectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A09CE5D1FD5C5EE00654339 /* Final_projectUITests.m */; };
+		1A09CE771FD5ED3E00654339 /* AppointmentlistCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A09CE751FD5ED3E00654339 /* AppointmentlistCell.m */; };
+		1A09CE781FD5ED3E00654339 /* AppointmentlistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A09CE761FD5ED3E00654339 /* AppointmentlistCell.xib */; };
+		1A09CE811FD5F40500654339 /* BBsettingviewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A09CE7F1FD5F40500654339 /* BBsettingviewcontroller.m */; };
+		1A09CE821FD5F40500654339 /* BBsettingviewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A09CE801FD5F40500654339 /* BBsettingviewcontroller.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		1A09CE591FD5C5EE00654339 /* Final projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A09CE5D1FD5C5EE00654339 /* Final_projectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Final_projectUITests.m; sourceTree = "<group>"; };
 		1A09CE5F1FD5C5EE00654339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A09CE741FD5ED3E00654339 /* AppointmentlistCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppointmentlistCell.h; sourceTree = "<group>"; };
+		1A09CE751FD5ED3E00654339 /* AppointmentlistCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppointmentlistCell.m; sourceTree = "<group>"; };
+		1A09CE761FD5ED3E00654339 /* AppointmentlistCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppointmentlistCell.xib; sourceTree = "<group>"; };
+		1A09CE7E1FD5F40500654339 /* BBsettingviewcontroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBsettingviewcontroller.h; sourceTree = "<group>"; };
+		1A09CE7F1FD5F40500654339 /* BBsettingviewcontroller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBsettingviewcontroller.m; sourceTree = "<group>"; };
+		1A09CE801FD5F40500654339 /* BBsettingviewcontroller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BBsettingviewcontroller.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,12 @@
 				1A09CE3A1FD5C5ED00654339 /* AppDelegate.m */,
 				1A09CE3C1FD5C5ED00654339 /* ViewController.h */,
 				1A09CE3D1FD5C5ED00654339 /* ViewController.m */,
+				1A09CE741FD5ED3E00654339 /* AppointmentlistCell.h */,
+				1A09CE751FD5ED3E00654339 /* AppointmentlistCell.m */,
+				1A09CE761FD5ED3E00654339 /* AppointmentlistCell.xib */,
+				1A09CE7E1FD5F40500654339 /* BBsettingviewcontroller.h */,
+				1A09CE7F1FD5F40500654339 /* BBsettingviewcontroller.m */,
+				1A09CE801FD5F40500654339 /* BBsettingviewcontroller.xib */,
 				1A09CE3F1FD5C5ED00654339 /* Main.storyboard */,
 				1A09CE421FD5C5ED00654339 /* Assets.xcassets */,
 				1A09CE441FD5C5ED00654339 /* LaunchScreen.storyboard */,
@@ -239,8 +255,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A09CE461FD5C5ED00654339 /* LaunchScreen.storyboard in Resources */,
+				1A09CE821FD5F40500654339 /* BBsettingviewcontroller.xib in Resources */,
 				1A09CE431FD5C5ED00654339 /* Assets.xcassets in Resources */,
 				1A09CE411FD5C5ED00654339 /* Main.storyboard in Resources */,
+				1A09CE781FD5ED3E00654339 /* AppointmentlistCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A09CE811FD5F40500654339 /* BBsettingviewcontroller.m in Sources */,
 				1A09CE3E1FD5C5ED00654339 /* ViewController.m in Sources */,
 				1A09CE491FD5C5ED00654339 /* main.m in Sources */,
 				1A09CE3B1FD5C5ED00654339 /* AppDelegate.m in Sources */,
+				1A09CE771FD5ED3E00654339 /* AppointmentlistCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

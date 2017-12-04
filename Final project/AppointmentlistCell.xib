@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="AppointmentlistCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Appointment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GCN-es-lDB">
+                        <rect key="frame" x="16" y="12" width="99" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7QC-My-BMi">
+                        <rect key="frame" x="259" y="6" width="45" height="30"/>
+                        <state key="normal" title="Delete"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GCN-es-lDB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="AwS-z5-Sjk"/>
+                    <constraint firstItem="7QC-My-BMi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="CD1-4p-LAl"/>
+                    <constraint firstItem="GCN-es-lDB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Dbd-PN-Ocl"/>
+                    <constraint firstAttribute="trailing" secondItem="7QC-My-BMi" secondAttribute="trailing" constant="16" id="KTt-wN-DT5"/>
+                    <constraint firstItem="7QC-My-BMi" firstAttribute="leading" secondItem="GCN-es-lDB" secondAttribute="trailing" constant="144" id="Lc3-Rv-IGZ"/>
+                    <constraint firstAttribute="bottom" secondItem="GCN-es-lDB" secondAttribute="bottom" constant="10.5" id="Xxh-T0-nYX"/>
+                    <constraint firstAttribute="bottom" secondItem="7QC-My-BMi" secondAttribute="bottom" constant="7.5" id="nl3-DY-RgO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="appointmentName" destination="GCN-es-lDB" id="hjv-TR-zqn"/>
+                <outlet property="deletebin" destination="7QC-My-BMi" id="PCy-95-g2k"/>
+            </connections>
+            <point key="canvasLocation" x="26" y="58"/>
+        </tableViewCell>
+    </objects>
+</document>
